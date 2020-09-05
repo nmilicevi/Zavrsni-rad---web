@@ -1,0 +1,391 @@
+body{
+	margin: 0;
+	  margin: 0;
+  padding: 0;
+}
+
+header {
+	background-image: url('img/Screenshot.png');
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+.naslov{
+	width: 100%;
+	height: 100%;
+	padding: 150px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    float:left;
+   box-sizing: border-box;
+	}
+.lijevo{
+	text-align:center-left;
+	float:left;
+
+}
+
+.lijeveSlike{
+	padding-left:2em;
+	padding-top:3em;
+	 height: 300px;
+ width: 400px;
+}
+.desneSlike{
+	padding-right:2em;
+	padding-top:3em;
+	 height: 300px;
+ width: 400px;
+}
+
+.clean{
+	clear:both;
+}
+section{
+
+	width:50%;
+	vertical-align:middle;
+	height:10%;
+	margin-left:auto;
+	margin-right:auto;
+
+	border-radius: 12px;
+	background: linear-gradient(#FFCFD1, #FFDCDE)
+}
+.textZena{
+	padding-left:2%;
+}
+
+
+
+.ispod{
+	padding-top:4%;
+	padding-left:4%;
+}
+
+
+blockquote {
+  margin: auto;
+  padding: 1em;
+  background: linear-gradient(white, white) padding-box, url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/80625/sea.jpg) border-box  0 / cover;
+  border: 2em solid transparent;
+  box-shadow: 5px 3px 30px black;
+  font-size: 1.4em;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 46%;
+}
+
+.wrapper{
+    padding-bottom: 2em;
+    padding-top: 2em;
+	background:#ecf5ff;
+		border-bottom: 1px  solid gray;
+	border-top: 1px  solid gray;
+}
+.wrapper1{
+	margin:2%;
+	padding:2%;
+	height:52vh;
+	padding-bottom:5%;
+
+}
+
+
+footer {
+  padding-top: 1.3em;
+}
+
+cite {
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+canvas{
+	width:50%;
+	display:flex;
+}
+#myChart{
+	float:left;
+}
+#myChart1{
+	float:right;
+}
+.chart-container {
+ float:left;
+  padding-bottom:25%;
+  margin: auto;
+  height: 20vh;
+  width: 40vw;
+}
+.chartText{
+	text-align:center;
+}
+.chartText1{
+	text-align:center;
+	padding-bottom:1em;
+}
+.chart-container1 {
+ float:right;
+  padding-bottom:25%;
+  margin: auto;
+  height: 20vh;
+  width: 40vw;
+}
+
+.footer1{
+  padding: 15px;
+  float:left;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  	width: 100%;
+	height: 100%;
+	padding: 150px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    float:left;
+   box-sizing: border-box;
+  
+}
+.footerImg{
+	background-image: url('img/Screenshot.png');
+background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie);
+
+
+
+
+img {
+  width: 100%;
+  height:390px;
+}
+img1 {
+  width: 100%;
+  height:390px;
+}
+
+a {
+  color: black;
+}
+
+.caption,
+h1,
+
+
+.caption,
+h1 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 2em;
+  padding: 10px 10px 0 10px;
+}
+
+
+.description {
+  font-size: 0.9em;
+  padding: 0 20px 20px 20px;
+  text-align: left;
+}
+
+.container {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 3%;
+}
+
+.container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.container,
+.front,
+.back {
+  width: 350px;
+  height: 350px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#content {
+
+  text-align: center;
+  padding-bottom:8em;
+  padding-top:2em;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.projekti{
+max-width: 100%;
+    position: relative;
+    margin: auto;
+    background: #ecf5ff;
+	padding-left:33%;
+	padding-bottom:3%;
+	padding-top:3%;
+	border-bottom: 4px  solid #a6a6a6;
+	border-top: 1px  solid gray;
+}
+
+.container,
+.front1,
+.back {
+  width: 350px;
+  height: 350px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+justify-content: center;
+  width:50%;
+align-content: center;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ecf5ff;
+  padding: 20px;
+  text-align: center;
+}
+.grid-item :hover{
+  background-color: white;
+	opacity:0.6;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background:#ecf5ff;
+
+}
+
+
+.mySlides {
+  display: none;
+ -webkit-animation: fade 2s ; /* Chrome, Safari, Opera */
+    animation: fade 2s ;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ff99bb;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+
+  text-align: center;
+  background:#ff3377;
+  opacity:0.8;
+
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
